@@ -62,13 +62,13 @@ La page de connexion où l'utilisateur s'authentifie pour obtenir son jeton JWT.
 
 Une fois connecté, l'utilisateur accède à la page d'analyse. Le formulaire est prêt à recevoir du texte. Le design est épuré pour se concentrer sur la fonctionnalité principale.
 
-![Page d'Analyse de Sentiment](/images/pagesentiment.png)
+![Page d'Analyse de Sentiment](/images/pagesentiment1.png)
 
 #### 3. Affichage du Résultat
 
 Après avoir soumis le texte, le résultat de l'analyse s'affiche directement sur la page de manière élégante, indiquant le sentiment détecté et le score de confiance.
 
-![Résultat de l'Analyse de Sentiment](/images/pagesentiment1.png)
+![Résultat de l'Analyse de Sentiment](/images/pagesentiment.png)
 
 ---
 
