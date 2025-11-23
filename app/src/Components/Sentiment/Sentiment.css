@@ -8,19 +8,20 @@ body {
   background-attachment: fixed;
 }
 .sentiment-page {
-    max-width: 800px;
-    margin: 40px auto;
+    width: 700px;
+    margin: 30px auto;
+    align-items: center; 
     font-family: Arial, sans-serif;
 }
 /* Conteneur principal */
 .sentiment-container {
   background-color: #e7cca7;
-  padding: 25px 30px;
-  width: 800px;
-  margin: 50px auto;
-  text-align: center;
+  padding: 20px ;
+  width: 700px;
+  height: 350px;
+  margin: 20px ;
   border: 3px solid #d4a068;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .sentiment-container h1 {
@@ -29,7 +30,7 @@ body {
   text-align: center;
 }
 
-/* Formulaire */
+
 .sentiment-form {
   display: flex;
   flex-direction: column;
@@ -40,9 +41,9 @@ body {
 
 
 .sentiment-textarea {
-  
-  width: 700px;
-  min-height: 200px;
+  height: 110px;
+  width: 500px;
+  min-height: 120px;
   padding: 15px;
   border: 1px solid #9d6436dc;
   font-size: 20px;
@@ -71,6 +72,7 @@ body {
 
 
 .sentiment-result {
+  width: 700px;
   margin-top: 25px;
   padding: 20px;
   border-radius: 10px;
@@ -84,16 +86,16 @@ body {
 .sentiment-result h3 {
     
     color: #00796b;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .sentiment-result p {
-    font-size: 24px;
+    font-size: 22px;
     margin: 8px 0;
 }
 .sentiment-result strong {
   color: #5a2003; 
-  font-weight: 900;
+  font-weight: 70px;
 }
 .placeholder-text {
   color: #0b050199; 
