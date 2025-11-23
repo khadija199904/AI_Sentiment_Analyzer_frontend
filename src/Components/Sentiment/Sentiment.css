@@ -1,0 +1,109 @@
+body {
+  background-color: #fdfaf6;
+  font-family: sans-serif;
+  background: url('/public/new3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.sentiment-page {
+    max-width: 800px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+/* Conteneur principal */
+.sentiment-container {
+  background-color: #e7cca7;
+  padding: 25px 30px;
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+  border: 3px solid #d4a068;
+  border-radius: 50px;
+}
+
+.sentiment-container h1 {
+  color: #8f4713;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Formulaire */
+.sentiment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin: 50px ;
+  gap: 30px;
+}
+
+
+.sentiment-textarea {
+  
+  width: 700px;
+  min-height: 200px;
+  padding: 15px;
+  border: 1px solid #9d6436dc;
+  font-size: 20px;
+  resize: vertical;
+  text-align: left;
+  border-radius: 8px;
+  
+}
+
+/* Bouton */
+.sentiment-button {
+  background-color: #a14d0c;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor:pointer;
+}
+
+.sentiment-button:hover {
+  background-color: #ef880b;
+  transform: translateY(-3px);
+}
+
+
+
+.sentiment-result {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fffdfa99; 
+  border: 1px solid #ffffff33; 
+  box-shadow: 0 8px 32px 0 #64554b26; 
+  text-align: left;
+  
+}
+
+.sentiment-result h3 {
+    
+    color: #00796b;
+    font-size: 26px;
+}
+
+.sentiment-result p {
+    font-size: 24px;
+    margin: 8px 0;
+}
+.sentiment-result strong {
+  color: #5a2003; 
+  font-weight: 900;
+}
+.placeholder-text {
+  color: #0b050199; 
+  font-style: italic;
+  text-align: left;
+}
+
+
+.sentiment-error {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
