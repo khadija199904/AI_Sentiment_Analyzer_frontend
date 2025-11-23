@@ -1,0 +1,90 @@
+/* src/LoginPage.css */
+
+.login-container {
+  width:100vw;
+  height: 100vh;
+  background: url('/public/3607424.jpg') no-repeat center center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.login-form {
+  background: transparent;
+  border: 1px solid;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(169, 76, 76, 0.3);
+  width: 120%;
+  max-width: 500px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.input-box label {
+  text-align:left;
+  display: block;
+  margin-bottom: 8px;
+  color: #cccccc;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 40px;;
+  border: 2px solid #fadcdc;
+  border-radius: 4px;
+  background-color: #38061a;
+  color: #ffffff;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.input-box input::placeholder {
+  color: #888888;
+}
+.input-box .icon {
+  position: absolute;
+  right: 10px;    
+  top: 50%;
+  transform: translateY(10%);
+  font-size: 18px;
+  color: #666;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #096c8d;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

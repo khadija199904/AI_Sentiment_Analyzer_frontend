@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {BrowserRouter , Routes,Route,Navigate} from 'react-router-dom'
+import Login from './Components/LoginForm/Login.jsx';
+import Sentiment from './Components/Sentiment/Sentiment.jsx';
 
 function App() {
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Routes>
+         {/* Redirection automatique */}
+          <Route path="/" element={<Navigate to="/Login" replace />} />
+          <Route path="/Login" element={<Login />} />
+        <Route  path='/Login' element={<Login/>}></Route>
+        <Route  path='/Sentiment' element={<Sentiment/>}></Route>
+      </Routes>
+      </BrowserRouter>
+   
     </div>
   );
 }
